@@ -50,7 +50,7 @@ header nav a{
 header nav a:hover{
     text-transform:uppercase ;
     color:lightgoldenrodyellow;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -59,7 +59,7 @@ header nav a:hover{
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0, 0.50), rgba(0,0,0,0.50)100%), url('../../resources/img/capa-house.jpg');
 
-    height: 800px;
+    height: 680px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -88,6 +88,27 @@ header nav a:hover{
     margin-right: 15px;
     cursor: pointer;
     transition: 0.3s ease all;
+}
+
+.botao-carrosel{
+    background-color: rgba(0,0,0, 0.50);
+    position: absolute;
+    border: none;
+    color: white;
+    margin-top: -45px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.botao-carrosel-1{
+    margin-right: 15px;
+}
+
+.botao-carrosel-2{
+    margin-left: 80px;
+}
+
+.botao-carrosel:hover{
+    background-color: rgba(0, 0, 150, 0.30);
 }
 
 .botao i {
@@ -119,4 +140,28 @@ header nav a:hover{
 .item img{
     height: 250px;
     width: 300px;
+}
+.item h4{
+    font-size: 20px;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+    position: absolute;
+}
+
+/* Mídia Query*/
+@media screen and (max-width:910px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+    }
 }
