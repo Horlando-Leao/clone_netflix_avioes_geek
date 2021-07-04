@@ -54,8 +54,8 @@ header nav a:hover{
 }
 
 
-/*filme*/
-.filme-principal{
+/*aviao*/
+.aviao-principal{
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0, 0.50), rgba(0,0,0,0.50)100%), url('../../resources/img/capa-house.jpg');
 
@@ -67,7 +67,7 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.aviao-principal .descricao{
     margin-top: 10px;
     margin-bottom: 60px;
 }
@@ -106,6 +106,17 @@ header nav a:hover{
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.aviao-principal .container{
     width: 60%;
+}
+
+.box-avioes{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.item img{
+    height: 250px;
+    width: 300px;
 }
