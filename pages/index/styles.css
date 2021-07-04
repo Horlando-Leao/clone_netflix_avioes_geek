@@ -29,12 +29,17 @@ header .container{
     justify-content: space-between;
 }
 
-header .logo{
+.logo img{
+    height: 50px;
+    background-size: cover;
+}
+
+/* header .logo{
     margin-left: 5px;
     color: var(--azul_4);
     font-family: 'Arial Black', Times;
     font-size: 40px;
-}
+} */
 
 header nav a{
     text-decoration: none;
@@ -54,7 +59,7 @@ header nav a:hover{
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0, 0.50), rgba(0,0,0,0.50)100%), url('../../img/capa-house.jpg');
 
-    height: 500px;
+    height: 800px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -91,4 +96,16 @@ header nav a:hover{
 
 .botao:hover{
     background-color: rgba(0, 0, 150, 0.30);
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.botoes{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 60%;
 }
