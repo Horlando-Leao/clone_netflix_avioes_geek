@@ -1,3 +1,47 @@
+:root{
+    --azul_1: #102a48;
+    --azul_2: #0c547d;
+    --azul_3: #088dbc;
+    --azul_4: #03d9fc;
+    --azul_5: #0ffff8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: black;
+
+    background: var(--azul_2);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--azul_4);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    text-decoration: none;
+    color:lightgoldenrodyellow;
+    font-size: 20px;
 }
