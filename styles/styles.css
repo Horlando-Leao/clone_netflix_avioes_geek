@@ -57,7 +57,7 @@ header nav a:hover{
 /*aviao*/
 .aviao-principal{
     font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0, 0.50), rgba(0,0,0,0.50)100%), url('../../resources/img/capa-house.jpg');
+    background-image: linear-gradient(rgba(0,0,0, 0.50), rgba(0,0,0,0.50)100%), url('../resources/img/capa-house.jpg');
 
     height: 680px;
     background-size: cover;
